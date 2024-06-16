@@ -20,6 +20,8 @@ export const authService = {
 				email: data.email,
 				password: data.password,
 				post: 'admin',
+				phone: '',
+				name: '',
 			}
 		}
 
