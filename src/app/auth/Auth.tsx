@@ -77,9 +77,7 @@ export function Auth() {
 
 				<div className='flex items-center gap-5 justify-center'>
 					<Button onClick={() => setIsLogin(true)}>Авторизация</Button>
-					{data === false && (
-						<Button onClick={() => setIsLogin(false)}>Регистрация</Button>
-					)}
+					<Button onClick={() => setIsLogin(false)}>Регистрация</Button>
 				</div>
 			</form>
 		</div>
