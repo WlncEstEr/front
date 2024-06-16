@@ -30,8 +30,7 @@ export const authService = {
 			date
 		)
 
-		if (type === 'register' && response.data.accessToken)
-			saveTokenStorage(response.data.accessToken)
+		if (response.data.accessToken) saveTokenStorage(response.data.accessToken)
 
 		return response
 	},
