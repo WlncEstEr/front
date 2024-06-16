@@ -1,0 +1,79 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/i/spravochnik/spravochnik.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.spravochnik_wrapper__AqCaw {
+  margin-bottom: 20px;
+}
+.spravochnik_wrapper__AqCaw ul li {
+  padding: 5px;
+  font-size: 25px;
+  display: inline;
+  margin-right: 20px;
+  border: 2px solid rgb(117, 81, 255);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.spravochnik_wrapper__AqCaw ul li:hover {
+  background-color: rgb(117, 81, 255);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 266ms;
+}
+
+.spravochnik_active__0vojK {
+  background-color: rgb(117, 81, 255);
+}
+
+.spravochnik_add__mybC3 .spravochnik_inputs__1Qovi {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.spravochnik_add__mybC3 input {
+  margin-bottom: 10px;
+}
+
+.spravochnik_table__HBSow {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.spravochnik_table__HBSow table {
+  width: 700px;
+}
+.spravochnik_table__HBSow table thead {
+  border-bottom: 1px solid grey;
+}
+.spravochnik_table__HBSow table thead tr:hover {
+  background-color: inherit;
+}
+.spravochnik_table__HBSow table tr {
+  text-align: center;
+}
+.spravochnik_table__HBSow table tr:hover {
+  background-color: rgb(73, 73, 73);
+  transition: 0.7s;
+}
+.spravochnik_table__HBSow table .spravochnik_active__0vojK {
+  background-color: grey;
+}
+.spravochnik_table__HBSow table th:last-child {
+  width: 70px;
+}
+.spravochnik_table__HBSow table th,
+.spravochnik_table__HBSow table td {
+  border-right: 1px solid rgb(150, 150, 150);
+  padding: 4px;
+}
+.spravochnik_table__HBSow table th:first-child,
+.spravochnik_table__HBSow table td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.spravochnik_table__HBSow table th:last-child,
+.spravochnik_table__HBSow table td:last-child {
+  height: -moz-max-content;
+  height: max-content;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: none;
+}
