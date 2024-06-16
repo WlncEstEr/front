@@ -6,22 +6,23 @@ import { removeFromStorage, saveTokenStorage } from './auth-token.service'
 
 export const authService = {
 	async main(type: 'login' | 'register', data: IRegistetForm) {
+		const lengthUser: boolean = await this.lenghtUser()
 		let date = {}
-		if (type === 'login') {
-			date = {
-				email: data.email,
-				name: data.name,
-				phone: String(data.phone),
-				password: data.password,
-				post: data.post,
-			}
-		} else {
+		if (lengthUser === false) {
 			date = {
 				email: data.email,
 				password: data.password,
 				post: 'admin',
 				phone: '',
 				name: '',
+			}
+		} else {
+			date = {
+				email: data.email,
+				name: data.name,
+				phone: String(data.phone),
+				password: data.password,
+				post: data.post,
 			}
 		}
 
@@ -30,7 +31,8 @@ export const authService = {
 			date
 		)
 
-		if (response.data.accessToken) saveTokenStorage(response.data.accessToken)
+		if (type === 'register' && response.data.accessToken)
+			saveTokenStorage(response.data.accessToken)
 
 		return response
 	},
