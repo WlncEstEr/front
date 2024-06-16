@@ -8,7 +8,7 @@ export const authService = {
 	async main(type: 'login' | 'register', data: IRegistetForm) {
 		const lengthUser: boolean = await this.lenghtUser()
 		let date = {}
-		if (lengthUser === false) {
+		if (lengthUser) {
 			date = {
 				email: data.email,
 				password: data.password,
