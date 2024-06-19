@@ -1,0 +1,93 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/app/i/doc/create/createdoc.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.createdoc_navigate__sOujB {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.createdoc_navigate__sOujB .createdoc_vagons__joxUq {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  bottom: 0;
+}
+.createdoc_navigate__sOujB .createdoc_wrapper__hVPog {
+  display: flex;
+  width: 600px;
+}
+.createdoc_navigate__sOujB .createdoc_wrapper__hVPog .createdoc_row__bZqWp {
+  font-size: 17px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.createdoc_navigate__sOujB .createdoc_wrapper__hVPog .createdoc_row__bZqWp .createdoc_colume_in_row__b5KyE {
+  width: 300px;
+}
+.createdoc_navigate__sOujB .createdoc_datatime__P15u_ {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.createdoc_navigate__sOujB .createdoc_datatime__P15u_ input {
+  justify-content: center;
+  width: 275px;
+}
+.createdoc_navigate__sOujB .createdoc_button__ufibE {
+  width: 600px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+.createdoc_navigate__sOujB .createdoc_button__ufibE button {
+  width: 150px;
+}
+
+.createdoc_wrapper__hVPog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: rgb(199, 199, 199);
+  font-size: 16px;
+}
+.createdoc_wrapper__hVPog table {
+  border-radius: 10px;
+  width: 780px;
+}
+.createdoc_wrapper__hVPog table:first-child {
+  margin-bottom: 40px;
+}
+.createdoc_wrapper__hVPog table thead {
+  border-bottom: 1px solid grey;
+}
+.createdoc_wrapper__hVPog table tr {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.createdoc_wrapper__hVPog table th,
+.createdoc_wrapper__hVPog table td {
+  border-right: 1px solid rgb(150, 150, 150);
+  padding: 4px;
+}
+.createdoc_wrapper__hVPog table th:first-child,
+.createdoc_wrapper__hVPog table td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.createdoc_wrapper__hVPog table th:last-child,
+.createdoc_wrapper__hVPog table td:last-child {
+  cursor: pointer;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: none;
+}

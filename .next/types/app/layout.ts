@@ -1,4 +1,4 @@
-// File: /Users/winchester/Desktop/Diplom_Next_js_Finaly/SAIT/front/src/app/layout.tsx
+// File: C:\Users\misha\OneDrive\Рабочий стол\Diplom Sait with print\front\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

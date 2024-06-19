@@ -75,7 +75,7 @@ export function Doc() {
 			case 'client':
 				return (
 					<Table
-						data={data}
+						date={data}
 						user={data.user}
 						currentUser={currentUser}
 						sorse={sorseDoc}
@@ -87,7 +87,7 @@ export function Doc() {
 			case 'admin':
 				return (
 					<Table
-						data={allDoc.data?.data}
+						date={allDoc.data?.data}
 						user={data.user}
 						currentUser={currentUser}
 						sorse={sorseDoc}
@@ -99,7 +99,7 @@ export function Doc() {
 			case 'logist':
 				return (
 					<Table
-						data={allDoc.data?.data}
+						date={allDoc.data?.data}
 						user={data.user}
 						sorse={sorseDoc}
 						currentUser={currentUser}
@@ -258,14 +258,15 @@ export function Doc() {
 							<th>Вагон</th>
 							<th>Груз</th>
 							<th>Тип вагона</th>
-							<th>Г/л, т</th>
+							{/* <th>Г/л, т</th> */}
 							<th>Вес тары</th>
 							<th>Вес груза нето</th>
 							<th>Вес из провески</th>
-							<th>Дата цеха-отпр.</th>
+							<th>Дата станции отпр.</th>
+							<th>Дата цеха отпр.</th>
 							<th>Дата станции назн.</th>
 							<th>Дата цеха назн.</th>
-							<th>Вес</th>
+							{/* <th>Вес</th> */}
 						</tr>
 					</thead>
 					<tbody>
@@ -276,16 +277,19 @@ export function Doc() {
 										<td>{item.nvag}</td>
 										<td>{item.inside_load_code}</td>
 										<td>{item.kodtvag}</td>
-										<td>{item.gpod}</td>
+										{/* <td>{item.gpod}</td> */}
 										<td>{item.vesvag}</td>
 										<td>{item.ves_grotp}</td>
 										<td>{item.ves_proves}</td>
-										<td>{item.dat_ceh_otpr}</td>
+										<td>{item.dat_st_otpr === '' ? '-' : item.dat_st_otpr}</td>
+										<td>
+											{item.dat_ceh_otpr === '' ? '-' : item.dat_ceh_otpr}
+										</td>
 										<td>{item.dat_st_nazn === '' ? '-' : item.dat_st_nazn}</td>
 										<td>
 											{item.dat_ceh_nazn === '' ? '-' : item.dat_ceh_nazn}
 										</td>
-										<td>{item.vesvag}</td>
+										{/* <td>{item.ves_proves}</td> */}
 									</tr>
 								)
 						)}

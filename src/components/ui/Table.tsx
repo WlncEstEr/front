@@ -13,12 +13,15 @@ import { DASHBOARD_PAGES } from '@/config/pages-url.config'
 import style from '../../app/i/doc/doc.module.scss'
 
 import { ICurrentUser } from '@/app/i/doc/Doc'
+import { useVagn } from '@/app/i/doc/form/useVagn'
+import { useSpravochnik } from '@/hooks/useSpravochnik'
 import { docService } from '@/services/doc.service'
 import { vagonService } from '@/services/vagon.service'
 import { useState } from 'react'
+import { DownloadShablon } from '../Shablon/DownloadShablon'
 
 interface ITable {
-	data: any
+	date: any
 	user?: IUser
 	currentUser?: ICurrentUser
 	setCurrentUser?: any
@@ -28,7 +31,7 @@ interface ITable {
 }
 
 export function Table({
-	data,
+	date,
 	currentUser,
 	setCurrentUser,
 	user,
@@ -61,10 +64,11 @@ export function Table({
 			push(DASHBOARD_PAGES.DOCS)
 		}
 	}
+	const { data } = useVagn()
+	const { tovar } = useSpravochnik()
 
 	const [isActive, setIsActive] = useState(false)
-
-	return data?.docs?.map((item: any, idx: number) =>
+	return date?.docs?.map((item: any, idx: number) =>
 		idx + 1 > Number(lenghtAll) &&
 		idx + 1 < Number(lenghtAll) + 11 &&
 		(filter === 'Все' || filter === '') &&
@@ -100,8 +104,6 @@ export function Table({
 				<td>{item.dat_st_otpr}</td>
 				<td>{item.dat_st_nazn === '' ? '-' : item.dat_st_nazn}</td>
 				<td>{item.dat_ceh_nazn === '' ? '-' : item.dat_ceh_nazn}</td>
-				{/* СПРОСИТЬ УЖЕ У ПАНТЮШИНА КАК ЛУЧШЕ СДЕЛАТЬ ЕСЛИ ДЕЛАТЬ ФОРМУ САМОМУ
-				А ТАК ЖЕ ПРО СТАТУСЫ */}
 				<td>{item.status}</td>
 				{user?.post !== 'client' && (
 					<td className='cursor-pointer flex flex-row gap-2'>
@@ -115,6 +117,12 @@ export function Table({
 						>
 							<SquarePen />
 						</Link>
+						<DownloadShablon
+							dataDoc={item}
+							dataVagons={data?.data}
+							allTovars={tovar.data?.data}
+						/>
+
 						<Link
 							onClick={() => onDelete(item.ndoc)}
 							href={{
@@ -168,6 +176,11 @@ export function Table({
 						>
 							<SquarePen />
 						</Link>
+						<DownloadShablon
+							dataDoc={item}
+							dataVagons={data?.data}
+							allTovars={tovar.data?.data}
+						/>
 						<Link
 							onClick={() => onDelete(item.ndoc)}
 							href={{
@@ -221,6 +234,11 @@ export function Table({
 						>
 							<SquarePen />
 						</Link>
+						<DownloadShablon
+							dataDoc={item}
+							dataVagons={data?.data}
+							allTovars={tovar.data?.data}
+						/>
 						<Link
 							onClick={() => onDelete(item.ndoc)}
 							href={{

@@ -1,4 +1,4 @@
-// File: /Users/winchester/Desktop/Diplom_Next_js_Finaly/SAIT/front/src/app/i/settings/page.tsx
+// File: C:\Users\misha\OneDrive\Рабочий стол\Diplom Sait with print\front\src\app\i\settings\page.tsx
 import * as entry from '../../../../../src/app/i/settings/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
