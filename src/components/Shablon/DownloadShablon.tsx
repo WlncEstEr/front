@@ -492,7 +492,7 @@ export function DownloadShablon({ dataDoc, dataVagons, allTovars }: IDownload) {
 							'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 					})
 
-					saveAs(out, 'generated.docx')
+					saveAs(out, `Word doc №${dataDoc.ndoc}.docx`)
 				}
 			}
 		)
