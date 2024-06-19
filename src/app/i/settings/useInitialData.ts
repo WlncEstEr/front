@@ -13,7 +13,7 @@ export function useInitialData(reset: UseFormReset<TypeUserForm>) {
 			reset({
 				email: data.user.email,
 				name: data.user.name,
-				phone: '89' + data.user.phone,
+				phone: data.user.phone,
 				post: data.user.post,
 			})
 		}
