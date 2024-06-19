@@ -1,7 +1,1 @@
-{
-  "/auth/page": "app/auth/page.js",
-  "/i/user/page": "app/i/user/page.js",
-  "/i/doc/page": "app/i/doc/page.js",
-  "/i/settings/page": "app/i/settings/page.js",
-  "/i/doc/update/page": "app/i/doc/update/page.js"
-}
+{}
