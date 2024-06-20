@@ -498,8 +498,13 @@ export function DownloadShablon({ dataDoc, dataVagons, allTovars }: IDownload) {
 		)
 	}
 
+	function Submit() {
+		const submit = window.confirm(`Скачать накладную №${dataDoc.ndoc}`)
+		if (submit) return handleDownload()
+	}
+
 	return (
-		<button onClick={() => handleDownload()}>
+		<button onClick={() => Submit()}>
 			<FileDown />
 		</button>
 	)
