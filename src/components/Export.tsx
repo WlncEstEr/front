@@ -17,18 +17,18 @@ const ExportToExcel = ({ doc, vagons, fileName }: any) => {
 		// Генерируйте бинарные данные Excel
 		const excelBuffer = XLSX.write(workbook, {
 			bookType: 'xlsx',
-			type: 'array'
+			type: 'array',
 		})
 
 		// Сохраните файл
 		const dataBlob = new Blob([excelBuffer], {
-			type: 'application/octet-stream'
+			type: 'application/octet-stream',
 		})
 		saveAs(dataBlob, `${fileName}.xlsx`)
 	}
 
 	function confirm() {
-		const res = window.confirm('Cкачать все накладые в формате ".Xl" ?')
+		const res = window.confirm('Cкачать все накладые в формате ".xlsx" ?')
 		if (res) return exportToExcel()
 	}
 
