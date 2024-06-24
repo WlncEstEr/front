@@ -39,7 +39,7 @@ export function DownloadShablon({ dataDoc, dataVagons, allTovars }: IDownload) {
 						case 2:
 							return (
 								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) * 1000
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 3:
