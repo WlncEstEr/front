@@ -38,17 +38,15 @@ export function DownloadShablon({ dataDoc, dataVagons, allTovars }: IDownload) {
 
 						case 2:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) * 1000
 							).toFixed(2)
 
 						case 3:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 4:
@@ -56,277 +54,261 @@ export function DownloadShablon({ dataDoc, dataVagons, allTovars }: IDownload) {
 								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
 								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
 								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) * 1000
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 5:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 6:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 7:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 8:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 9:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 
 						case 10:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 11:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 12:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 13:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 14:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 15:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 16:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(15)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(15)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 17:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(16)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(16)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 18:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(17)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(17)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 19:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(17)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(18)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(17)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(18)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 						case 20:
 							return (
-								(Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(17)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(18)?.ves_proves.replace(',', '.')) +
-									Number(docVagons?.at(19)?.ves_proves.replace(',', '.'))) *
-								1000
+								Number(docVagons?.at(0)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(1)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(2)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(3)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(4)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(5)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(6)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(7)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(8)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(9)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(10)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(11)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(12)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(13)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(14)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(15)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(16)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(17)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(18)?.ves_proves.replace(',', '.')) +
+								Number(docVagons?.at(19)?.ves_proves.replace(',', '.'))
 							).toFixed(2)
 					}
 				}
