@@ -1,22 +1,22 @@
 export const menuSpravochnik = [
 	{
 		name: 'Station',
-		label: 'Стацнии'
+		label: 'Станции',
 	},
 	{
 		name: 'Ceh',
-		label: 'Цехи'
+		label: 'Цехи',
 	},
 	{
 		name: 'Tovar',
-		label: 'Товар'
+		label: 'Товар',
 	},
 	{
 		name: 'Vagons',
-		label: 'Вагоны'
+		label: 'Вагоны',
 	},
 	{
 		name: 'Way',
-		label: 'Пути'
-	}
+		label: 'Пути',
+	},
 ]
